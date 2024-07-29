@@ -1,0 +1,7 @@
+version: "3"
+
+tasks:
+  test:
+    desc: First Command Test
+    cmds:
+      - GOFLAGS=-mod=mod go run main.go test
